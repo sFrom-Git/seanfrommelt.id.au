@@ -3,7 +3,7 @@
 <head>
   
   <meta charset="utf-8"/>
-  <title>Logic Gate Calculator Project</title>
+  <title>Logic Gate Calculator</title>
   <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="stylesheet.css">
 
@@ -11,6 +11,7 @@
 <body>
 
   <div class="container">
+    <!-- Navigation bar-->
     <div class="nav-wrapper">
       <div class="left-side">
 
@@ -44,25 +45,38 @@
 
       </div>
     </div>
-
+    <!-- Content Section-->
     <div class="content-wrapper">
-      <h1>This is my project</h1>
-    </div>
+      <div class="project-wrapper">
+        <div class="info-section-wrapper">
+          <div class="info-section-heading">
+            <h1>Logic Gate Calculator</h1>
+          </div>
+          <div class="info-section-content">
+            <p>This project was my first experience with UX design. I was tasked with creating a prototype of an app for blah blah blah</p>
+          </div>
+        </div>
+
+        <div class="iframe-section">
+          <iframe src="assets/calculator.pdf" width="100%" height="950"></iframe>
+        </div>
+        <div class="info-section-wrapper">
+          <div class="info-section-content">
+            woohoo
+          </div>
+        </div>
+        
+      </div>
+    </div>   
+    <!-- Footer bar-->
+    <footer>
+      <div class="footer-bottom">
+        &copy; sfrom.com.au | Designed by Sean Frommelt
+      </div>
+    </footer>
+  
   </div>
 
 </body>
-<script>
-  const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper')
-
-  portfolioItems.forEach(portfolioItem => {
-    portfolioItem.addEventListener('mouseover', () => {
-      portfolioItem.childNodes[1].classList.add('img-darken');
-    })
-
-    portfolioItem.addEventListener('mouseout', () => {
-      portfolioItem.childNodes[1].classList.remove('img-darken');
-    })
-
-  })
-</script>
+<script></script>
 </html>

@@ -9,6 +9,26 @@ body {
 	grid-template-columns: 1fr;
 }
 
+/* Footer styles */
+
+footer {
+	padding-top: 10px;
+	background: white;
+}
+
+.footer-bottom {
+	color: grey;
+	height: 30px;
+	width: 100%;
+	text-align: center;
+	bottom: 0;
+}
+
+.footer-content {
+	height: 80px;
+}
+
+
 /* Nav styles */
 .nav-wrapper {
 	display: flex;
@@ -88,7 +108,7 @@ body {
 }
 
 .logo-wrapper img {
-	width: 50%;
+	width: 35%;
 	padding-top: 30px;
 	margin-bottom: 0px;
 
@@ -119,7 +139,7 @@ body {
 }
 
 .profile-img-wrapper img {
-width: 100%;
+	width: 100%;
 }
 
 .profile-content-wrapper {
@@ -129,3 +149,39 @@ width: 100%;
 .profile-content-wrapper h1 {
 	color: lightseagreen;
 }
+
+/* Project page styles */
+
+.project-wrapper {
+	display: grid;
+	grid-template-columns: 1fr 3fr 1fr;
+}
+
+.info-section-wrapper {
+	position: relative;
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+}
+
+.info-section-wrapper .info-section-heading {
+	background: whitesmoke;
+	position: relative;
+	width: 100%;
+}
+
+.info-section-wrapper > .info-section-heading > h1 {
+	margin: 0;
+	text-align: center;
+	border-bottom: 1px solid grey;
+}
+
+.info-section-wrapper .info-section-content {
+	padding: 10px;
+}
+
+.iframe-section {
+	position: relative;
+	border-bottom: 1px solid grey;
+}
+
+
