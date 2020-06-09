@@ -184,4 +184,41 @@ footer {
 	border-bottom: 1px solid grey;
 }
 
+/* Education page styles */
 
+.education-content-wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+
+}
+
+.content-column-left img, .content-column-right img {
+	max-width: 60%;
+	border: 2px solid rgb(175, 175, 175);
+}
+
+.content-column-right img, .content-column-right h1, .content-column-left img, .content-column-left h1 {
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.content-column-right {
+	padding-right: 30px;
+}
+
+.content-column-left {
+	margin-left: 30px;
+}
+
+.content-column-heading {
+	text-decoration: underline;
+	font-size: 0.6vw;
+}
+
+.content-column-desc {
+	text-align: justify;
+	font-size: 1.2em;
+	padding: 80px;
+}
